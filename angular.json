@@ -76,10 +76,12 @@
           "configurations": {
             "production": {
               "browserTarget": "angular-ambassador:build:production",
-              "port": 4300
+
             },
             "development": {
-              "browserTarget": "angular-ambassador:build:development"
+              "browserTarget": "angular-ambassador:build:development",
+              "proxyConfig": "proxy.conf.json",
+              "port": 4300
             }
           },
           "defaultConfiguration": "development"
